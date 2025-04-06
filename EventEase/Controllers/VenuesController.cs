@@ -131,10 +131,5 @@ namespace EventEase.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
-
-        private bool VenueExists(int id)
-        {
-            return _context.Venues.Any(e => e.VenueId == id);
-        }
     }
 }
