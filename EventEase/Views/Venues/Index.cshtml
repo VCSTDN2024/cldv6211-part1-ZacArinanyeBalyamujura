@@ -1,0 +1,65 @@
+﻿@model IEnumerable<EventEase.Models.Venue>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<div class="text-center">
+    <h1>Venues</h1>
+
+</div>
+
+<div class="text-center mt-4">
+    <a class="btn btn-primary" asp-controller=Venues asp-action="Create">Create Venue</a>
+
+</div>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.VenueId)  
+            </th>
+            <th>
+                 @Html.DisplayNameFor(model => model.VenueName)  
+            </th>
+            <th>
+                 @Html.DisplayNameFor(model => model.VenueLocation) 
+            </th>
+            <th>
+                 @Html.DisplayNameFor(model => model.Capacity) 
+            </th>
+            <th>
+                 @Html.DisplayNameFor(model => model.ImageUrl) 
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model) {  
+        <tr>
+            <td>
+                 @Html.DisplayFor(modelItem => item.VenueId) 
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VenueName)  
+            </td>
+            <td>
+                 @Html.DisplayFor(modelItem => item.VenueLocation)  
+            </td>
+            <td>
+                 @Html.DisplayFor(modelItem => item.Capacity) 
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImageUrl)  
+            </td>
+            <td>
+                 <a asp-action="Edit" asp-route-id="@item.VenueId">Edit</a> |  
+                 <a asp-action="Details" asp-route-id="@item.VenueId">Details</a> |  
+                <a asp-action="Delete" asp-route-id="@item.VenueId">Delete</a>  
+            </td>
+        </tr>
+         }  
+    </tbody>
+</table>
