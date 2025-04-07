@@ -48,8 +48,8 @@ namespace EventEase.Controllers
         // GET: Bookings/Create
         public IActionResult Create()
         {
-            ViewData["EventId"] = new SelectList(_context.Events, "EventId", "EventId");
-            ViewData["VenueId"] = new SelectList(_context.Venues, "VenueId", "VenueId");
+            ViewData["EventName"] = new SelectList(_context.Events, "EventId", "EventName");
+            ViewData["VenueName"] = new SelectList(_context.Venues, "VenueId", "VenueName");
             return View();
         }
 
@@ -79,8 +79,8 @@ namespace EventEase.Controllers
             }
             else
             {
-                ViewData["EventId"] = new SelectList(_context.Events, "EventId", "EventId", booking.EventId);
-                ViewData["VenueId"] = new SelectList(_context.Venues, "VenueId", "VenueId", booking.VenueId);
+                ViewData["EventName"] = new SelectList(_context.Events, "EventId", "EventName", booking.EventId);
+                ViewData["VenueName"] = new SelectList(_context.Venues, "VenueId", "VenueName", booking.VenueId);
                 return View(booking);
             }
                 
