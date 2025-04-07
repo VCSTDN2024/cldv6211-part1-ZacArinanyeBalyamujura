@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\lab_services_student\\source\\repos\\EventEase\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0C664FD2-0AC2-4F30-9FC7-31722E5501A8}|EventEase\\EventEase.csproj|c:\\users\\lab_services_student\\source\\repos\\eventease\\eventease\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C664FD2-0AC2-4F30-9FC7-31722E5501A8}|EventEase\\EventEase.csproj|solutionrelative:eventease\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C664FD2-0AC2-4F30-9FC7-31722E5501A8}|EventEase\\EventEase.csproj|c:\\users\\lab_services_student\\source\\repos\\eventease\\eventease\\views\\bookings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C664FD2-0AC2-4F30-9FC7-31722E5501A8}|EventEase\\EventEase.csproj|solutionrelative:eventease\\views\\bookings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C664FD2-0AC2-4F30-9FC7-31722E5501A8}|EventEase\\EventEase.csproj|c:\\users\\lab_services_student\\source\\repos\\eventease\\eventease\\views\\bookings\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C664FD2-0AC2-4F30-9FC7-31722E5501A8}|EventEase\\EventEase.csproj|solutionrelative:eventease\\views\\bookings\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0C664FD2-0AC2-4F30-9FC7-31722E5501A8}|EventEase\\EventEase.csproj|c:\\users\\lab_services_student\\source\\repos\\eventease\\eventease\\controllers\\venuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C664FD2-0AC2-4F30-9FC7-31722E5501A8}|EventEase\\EventEase.csproj|solutionrelative:eventease\\controllers\\venuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,11 +26,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\EventEase\\EventEase\\Views\\Bookings\\Edit.cshtml",
+              "RelativeDocumentMoniker": "EventEase\\Views\\Bookings\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\EventEase\\EventEase\\Views\\Bookings\\Edit.cshtml",
+              "RelativeToolTip": "EventEase\\Views\\Bookings\\Edit.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T12:32:41.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\EventEase\\EventEase\\Controllers\\BookingsController.cs",
+              "RelativeDocumentMoniker": "EventEase\\Controllers\\BookingsController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\EventEase\\EventEase\\Controllers\\BookingsController.cs",
+              "RelativeToolTip": "EventEase\\Controllers\\BookingsController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwE8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T12:20:35.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\EventEase\\EventEase\\Views\\Bookings\\Create.cshtml",
+              "RelativeDocumentMoniker": "EventEase\\Views\\Bookings\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\EventEase\\EventEase\\Views\\Bookings\\Create.cshtml",
+              "RelativeToolTip": "EventEase\\Views\\Bookings\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T12:16:55.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "VenuesController.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\EventEase\\EventEase\\Controllers\\VenuesController.cs",
               "RelativeDocumentMoniker": "EventEase\\Controllers\\VenuesController.cs",
@@ -28,10 +79,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T13:17:11.806Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
